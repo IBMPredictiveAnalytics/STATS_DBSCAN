@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>STATS DBSCAN Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+
+<h1>STATS DBSCAN Extension Command</h1>
+
+<p>Perform density-based clustering.
+The companion procedure, STATS DBPRED, can be used
+to assign clusters to new data.</p>
+<div class="syntax">
+<p>STATS DBSCAN VARIABLES=<em>variable list</em><sup>&#42;</sup><br/>
+RDIST = <em>number</em><br/>
+METHOD = HYBRID<sup>&#42;&#42;</sup> or RAW or DIST<br/>
+MINPTS = <em>number</em>  </p>
+
+<p>/OPTIONS SCALE=YES or NO<sup>&#42;&#42;</sup><br/>
+SEEDS = YES<sup>&#42;&#42;</sup> or NO<br/>
+MEMORYLIMIT = <em>number</em></p>
+
+<p>/OUTPUT PLOT=YES<sup>&#42;&#42;</sup> or NO</p>
+
+<p>/SAVE DSNAME=<em>dataset name *<br/>
+ID=variable name<br/>
+RETAIN = YES or NO</em><br/>
+WORKSPACE = <em>&ldquo;file name&rdquo;</em></p>
+
+<p>/HELP</p>
+
+
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>STATS DBSCAN /HELP prints this help and does nothing else.</p>
+
+<pre class="example"><code>STATS DBSCAN VARIABLES = x y z RDIST = .5 MINPTS=5.
+</code></pre>
+
+<p><strong>VARIABLES</strong> specifies the variables on which to cluster
+the cases.  String variables are not permitted, and
+categorical variables may be inappropriate for this
+method.  Cases with any missing values are excluded listwise.</p>
+
+<p><strong>RDIST</strong> specifies the reachability value.  That is the
+maximum Euclidean distance a point can be from another point to
+be included in its cluster.  Some experimentation may
+be required to find a satisfactory value.  Points more than
+this distance from every other point are considered noise.
+Too small a value will make every point noise while too large
+a value will result in most points being in the same cluster.
+Standardizing the data may make it easier to pick this value.</p>
+
+<p><strong>METHOD</strong> specifies the clustering method.  </p>
+
+<ul>
+<li>HYBRID is the default
+and provides good speed with moderate memory usage.</li>
+<li>RAW uses less memory but is likely to be slow.<br/></li>
+<li>DIST clusters based on a distance matrix.  For DIST, the input variables
+must constitute a distance matrix.</li>
+</ul>
+
+<p><strong>MINPTS</strong> specifies the minimum number of points to constitute
+a cluster.  The default value is 5.  It is recommended that
+the value be at least the number of variables plus 1.  A
+value of 2 is equivalent to a certain hierarchical
+clustering algorithm.</p>
+
+<h2>OPTIONS</h2>
+
+<p><strong>SCALE</strong> = YES causes the variables to be standardized to zero
+mean and unit variance.  This carries over to the prediction
+process.</p>
+
+<p><strong>SEEDS</strong> = YES specifies that seed information is included in
+the cluster object.  This is required if predicting new cases,
+and statistics are reported for both seeds and border points
+in the output when this value is YES.</p>
+
+<p><strong>MEMORYLIMIT</strong> specifies that the R memory limit should be
+increased to the specified value, which is in megabytes.  Some
+DBSCAN methods require large amounts of memory, so the default
+value may need to be increased.</p>
+
+<p>The maximum value depends on the operating system and R version.
+On 32-bit Windows it is limited to 2 or 3GB.  On 64-bit Windows
+using 64-bit R (and 64-bit Statistics), the limit is 8TB.  Once
+the limit is set, it remains at that value for the remainder of
+the session.</p>
+
+<h2>OUTPUT</h2>
+
+<p><strong>PLOT</strong>=YES produces a plot of the points in the clusters.</p>
+
+<h2>SAVE</h2>
+
+<p>The SAVE parameters control saving of the cluster information.
+Specify <strong>DSNAME</strong> as a dataset name not already in use to save
+the cluster assignments in a new dataset.  You can specify
+an <strong>ID</strong> variable to identify the cases.</p>
+
+<p><strong>WORKSPACE</strong> specifies a file name for saving the R workspace.</p>
+
+<p><strong>RETAIN</strong> = YES causes the workspace to be retained in memory.
+Either a workspace file or the retained workspace can be used
+to predict new cases using STATS DBPRED.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
