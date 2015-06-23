@@ -1,0 +1,197 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_DBSCAN.R:95
+#: STATS_DBSCAN.R:183
+msgid "Density-Based Clustering"
+msgstr ""
+"Кластеризация на основе плотности"
+
+#: STATS_DBSCAN.R:97
+msgid "Density-Based Clustering: Warnings"
+msgstr ""
+"Кластеризация на основе плотности: Предупреждения"
+
+#: STATS_DBSCAN.R:100
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"Необходим пакет R %s, но его не удалось загрузить."
+
+#: STATS_DBSCAN.R:111
+msgid "The active dataset must have a name if creating new datasets"
+msgstr ""
+"У активного набора данных должно быть имя, если создаются новые наборы данных"
+
+#: STATS_DBSCAN.R:115
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"Одно или несколько имен наборов данных уже используются"
+
+#: STATS_DBSCAN.R:128
+msgid "String variables cannot be used in this procedure"
+msgstr ""
+"Текстовые переменные нельзя использовать в этой процедуре"
+
+#: STATS_DBSCAN.R:186
+msgid "Computations done by R package fpc function dbscan by Christian Hennig"
+msgstr ""
+"Вычисления выполнены пакетом R, функция fpc; команда dbscan написана Christian Hennig"
+
+#: STATS_DBSCAN.R:188
+msgid "Variables"
+msgstr ""
+"Переменные"
+
+#: STATS_DBSCAN.R:189
+msgid "Method"
+msgstr ""
+"Метод"
+
+#: STATS_DBSCAN.R:190
+msgid "Min Reachability Distance"
+msgstr ""
+"Минимальное расстояние достижимости"
+
+#: STATS_DBSCAN.R:191
+msgid "Data Scaled"
+msgstr ""
+"Масштабированные данные"
+
+#: STATS_DBSCAN.R:192
+msgid "Minimum Cluster Size"
+msgstr ""
+"Минимальный размер кластера"
+
+#: STATS_DBSCAN.R:193
+msgid "Output Dataset"
+msgstr ""
+"Выходной набор данных"
+
+#: STATS_DBSCAN.R:194
+msgid "Workspace File"
+msgstr ""
+"Файл рабочей области"
+
+#: STATS_DBSCAN.R:195
+msgid "Workspace Retained"
+msgstr ""
+"Сохраненная рабочая область"
+
+#: STATS_DBSCAN.R:196
+msgid "Creation Date"
+msgstr ""
+"Дата создания"
+
+#: STATS_DBSCAN.R:197
+msgid "Number of Cases"
+msgstr ""
+"Количество наблюдений"
+
+#: STATS_DBSCAN.R:198
+msgid "Number of Valid Cases"
+msgstr ""
+"Количество действительных наблюдений"
+
+#: STATS_DBSCAN.R:204
+#: STATS_DBSCAN.R:208
+msgid "Yes"
+msgstr ""
+"Да"
+
+#: STATS_DBSCAN.R:204
+#: STATS_DBSCAN.R:208
+msgid "No"
+msgstr ""
+"Нет"
+
+#: STATS_DBSCAN.R:206
+#: STATS_DBSCAN.R:207
+msgid "--NA--"
+msgstr ""
+"--НП--"
+
+#: STATS_DBSCAN.R:217
+msgid "Settings and Results Summary"
+msgstr ""
+"Сводка параметров и результатов"
+
+#: STATS_DBSCAN.R:218
+#: STATS_DBSCAN.R:218
+msgid "Summary"
+msgstr ""
+"Итог"
+
+#: STATS_DBSCAN.R:225
+msgid "Frequency"
+msgstr ""
+"Частота"
+
+#: STATS_DBSCAN.R:238
+msgid "Seed Frequency"
+msgstr ""
+"Начальная частота"
+
+#: STATS_DBSCAN.R:238
+msgid "Border Frequency"
+msgstr ""
+"Граничная частота"
+
+#: STATS_DBSCAN.R:238
+#: STATS_DBSCAN.R:241
+msgid "Total"
+msgstr ""
+"Всего"
+
+#: STATS_DBSCAN.R:244
+msgid "Cluster Membership Distribution"
+msgstr ""
+"Распределение принадлежности к кластеру"
+
+#: STATS_DBSCAN.R:245
+msgid "Cluster Number"
+msgstr ""
+"Номер кластера"
+
+#: STATS_DBSCAN.R:248
+msgid "Distribution"
+msgstr ""
+"Распределение"
+
+#: STATS_DBSCAN.R:253
+msgid "Cluster Plot"
+msgstr ""
+"Кластерная диаграмма"
+
+#: STATS_DBSCAN.R:282
+msgid "Predicted Cluster"
+msgstr ""
+"Предсказанный кластер"
+
+#: STATS_DBSCAN.R:345
+msgid "End of procedure"
+msgstr ""
+"Конец процедуры"
+
+#: STATS_DBSCAN.R:372
+msgid "Message Number"
+msgstr ""
+"Номер сообщения"
+
+
