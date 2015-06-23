@@ -1,0 +1,197 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_DBSCAN.R:95
+#: STATS_DBSCAN.R:183
+msgid "Density-Based Clustering"
+msgstr ""
+"밀도 기반 군집"
+
+#: STATS_DBSCAN.R:97
+msgid "Density-Based Clustering: Warnings"
+msgstr ""
+"밀도 기반 군집: 경고"
+
+#: STATS_DBSCAN.R:100
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s 패키지가 필요하지만 로드할 수 없습니다."
+
+#: STATS_DBSCAN.R:111
+msgid "The active dataset must have a name if creating new datasets"
+msgstr ""
+"새 데이터 세트를 작성할 때 활성 데이터 세트의 이름이 있어야 합니다."
+
+#: STATS_DBSCAN.R:115
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"하나 이상의 지정된 출력 데이터 세트 이름이 이미 사용 중입니다."
+
+#: STATS_DBSCAN.R:128
+msgid "String variables cannot be used in this procedure"
+msgstr ""
+"이 프로시저에서는 문자변수를 사용할 수 없습니다."
+
+#: STATS_DBSCAN.R:186
+msgid "Computations done by R package fpc function dbscan by Christian Hennig"
+msgstr ""
+"Christian Hennig가 R 패키지 fpc 함수 dbscan으로 계산을 완료했습니다."
+
+#: STATS_DBSCAN.R:188
+msgid "Variables"
+msgstr ""
+"변수"
+
+#: STATS_DBSCAN.R:189
+msgid "Method"
+msgstr ""
+"방법"
+
+#: STATS_DBSCAN.R:190
+msgid "Min Reachability Distance"
+msgstr ""
+"최소 도달가능 거리"
+
+#: STATS_DBSCAN.R:191
+msgid "Data Scaled"
+msgstr ""
+"데이터 척도"
+
+#: STATS_DBSCAN.R:192
+msgid "Minimum Cluster Size"
+msgstr ""
+"최소 군집 크기"
+
+#: STATS_DBSCAN.R:193
+msgid "Output Dataset"
+msgstr ""
+"출력 데이터 세트"
+
+#: STATS_DBSCAN.R:194
+msgid "Workspace File"
+msgstr ""
+"작업공간 파일"
+
+#: STATS_DBSCAN.R:195
+msgid "Workspace Retained"
+msgstr ""
+"작업공간 유지됨"
+
+#: STATS_DBSCAN.R:196
+msgid "Creation Date"
+msgstr ""
+"작성 날짜"
+
+#: STATS_DBSCAN.R:197
+msgid "Number of Cases"
+msgstr ""
+"케이스 수"
+
+#: STATS_DBSCAN.R:198
+msgid "Number of Valid Cases"
+msgstr ""
+"유효 케이스 수"
+
+#: STATS_DBSCAN.R:204
+#: STATS_DBSCAN.R:208
+msgid "Yes"
+msgstr ""
+"예"
+
+#: STATS_DBSCAN.R:204
+#: STATS_DBSCAN.R:208
+msgid "No"
+msgstr ""
+"아니오"
+
+#: STATS_DBSCAN.R:206
+#: STATS_DBSCAN.R:207
+msgid "--NA--"
+msgstr ""
+"--해당 없음--"
+
+#: STATS_DBSCAN.R:217
+msgid "Settings and Results Summary"
+msgstr ""
+"설정 및 결과 요약"
+
+#: STATS_DBSCAN.R:218
+#: STATS_DBSCAN.R:218
+msgid "Summary"
+msgstr ""
+"요약"
+
+#: STATS_DBSCAN.R:225
+msgid "Frequency"
+msgstr ""
+"구매빈도"
+
+#: STATS_DBSCAN.R:238
+msgid "Seed Frequency"
+msgstr ""
+"난수 시작값 빈도"
+
+#: STATS_DBSCAN.R:238
+msgid "Border Frequency"
+msgstr ""
+"경계 빈도"
+
+#: STATS_DBSCAN.R:238
+#: STATS_DBSCAN.R:241
+msgid "Total"
+msgstr ""
+"총계"
+
+#: STATS_DBSCAN.R:244
+msgid "Cluster Membership Distribution"
+msgstr ""
+"소속군집 분포"
+
+#: STATS_DBSCAN.R:245
+msgid "Cluster Number"
+msgstr ""
+"군집 수"
+
+#: STATS_DBSCAN.R:248
+msgid "Distribution"
+msgstr ""
+"분포"
+
+#: STATS_DBSCAN.R:253
+msgid "Cluster Plot"
+msgstr ""
+"군집 도표"
+
+#: STATS_DBSCAN.R:282
+msgid "Predicted Cluster"
+msgstr ""
+"예측 군집"
+
+#: STATS_DBSCAN.R:345
+msgid "End of procedure"
+msgstr ""
+"프로시저 끝"
+
+#: STATS_DBSCAN.R:372
+msgid "Message Number"
+msgstr ""
+"메시지 번호"
+
+
