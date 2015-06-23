@@ -1,0 +1,197 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_DBSCAN.R:95
+#: STATS_DBSCAN.R:183
+msgid "Density-Based Clustering"
+msgstr ""
+"Armazenamento em cluster baseado em densidade"
+
+#: STATS_DBSCAN.R:97
+msgid "Density-Based Clustering: Warnings"
+msgstr ""
+"Armazenamento em cluster baseada em densidade: Avisos"
+
+#: STATS_DBSCAN.R:100
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"O pacote R %s é necessário, mas não pôde ser carregado."
+
+#: STATS_DBSCAN.R:111
+msgid "The active dataset must have a name if creating new datasets"
+msgstr ""
+"O conjunto de dados ativo deve ter um nome se estiver criando novos conjuntos de dados"
+
+#: STATS_DBSCAN.R:115
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"Um ou mais nomes de conjunto de dados de saída especificados já estão em uso"
+
+#: STATS_DBSCAN.R:128
+msgid "String variables cannot be used in this procedure"
+msgstr ""
+"Variáveis de sequência de caracteres não podem ser usadas neste procedimento"
+
+#: STATS_DBSCAN.R:186
+msgid "Computations done by R package fpc function dbscan by Christian Hennig"
+msgstr ""
+"Cálculos feitos pela função fpc dbscan do pacote R por Christian Hennig"
+
+#: STATS_DBSCAN.R:188
+msgid "Variables"
+msgstr ""
+"Variáveis"
+
+#: STATS_DBSCAN.R:189
+msgid "Method"
+msgstr ""
+"Método"
+
+#: STATS_DBSCAN.R:190
+msgid "Min Reachability Distance"
+msgstr ""
+"Distância mín. de alcance"
+
+#: STATS_DBSCAN.R:191
+msgid "Data Scaled"
+msgstr ""
+"Dados em escala"
+
+#: STATS_DBSCAN.R:192
+msgid "Minimum Cluster Size"
+msgstr ""
+"Tamanho mínimo do cluster"
+
+#: STATS_DBSCAN.R:193
+msgid "Output Dataset"
+msgstr ""
+"Conjunto de Dados de Saída"
+
+#: STATS_DBSCAN.R:194
+msgid "Workspace File"
+msgstr ""
+"Arquivo de área de trabalho"
+
+#: STATS_DBSCAN.R:195
+msgid "Workspace Retained"
+msgstr ""
+"Área de trabalho retida"
+
+#: STATS_DBSCAN.R:196
+msgid "Creation Date"
+msgstr ""
+"Data de criação"
+
+#: STATS_DBSCAN.R:197
+msgid "Number of Cases"
+msgstr ""
+"Número de casos"
+
+#: STATS_DBSCAN.R:198
+msgid "Number of Valid Cases"
+msgstr ""
+"Número de casos válidos"
+
+#: STATS_DBSCAN.R:204
+#: STATS_DBSCAN.R:208
+msgid "Yes"
+msgstr ""
+"Sim"
+
+#: STATS_DBSCAN.R:204
+#: STATS_DBSCAN.R:208
+msgid "No"
+msgstr ""
+"Não"
+
+#: STATS_DBSCAN.R:206
+#: STATS_DBSCAN.R:207
+msgid "--NA--"
+msgstr ""
+"--NA--"
+
+#: STATS_DBSCAN.R:217
+msgid "Settings and Results Summary"
+msgstr ""
+"Sumarização de resultados e configurações"
+
+#: STATS_DBSCAN.R:218
+#: STATS_DBSCAN.R:218
+msgid "Summary"
+msgstr ""
+"Sumarização"
+
+#: STATS_DBSCAN.R:225
+msgid "Frequency"
+msgstr ""
+"Frequência"
+
+#: STATS_DBSCAN.R:238
+msgid "Seed Frequency"
+msgstr ""
+"Frequência de semente"
+
+#: STATS_DBSCAN.R:238
+msgid "Border Frequency"
+msgstr ""
+"Frequência da borda"
+
+#: STATS_DBSCAN.R:238
+#: STATS_DBSCAN.R:241
+msgid "Total"
+msgstr ""
+"Total"
+
+#: STATS_DBSCAN.R:244
+msgid "Cluster Membership Distribution"
+msgstr ""
+"Distribuição de associação de cluster"
+
+#: STATS_DBSCAN.R:245
+msgid "Cluster Number"
+msgstr ""
+"Número de clusters"
+
+#: STATS_DBSCAN.R:248
+msgid "Distribution"
+msgstr ""
+"Distribuição"
+
+#: STATS_DBSCAN.R:253
+msgid "Cluster Plot"
+msgstr ""
+"Gráfico de cluster"
+
+#: STATS_DBSCAN.R:282
+msgid "Predicted Cluster"
+msgstr ""
+"Cluster predito"
+
+#: STATS_DBSCAN.R:345
+msgid "End of procedure"
+msgstr ""
+"Fim do procedimento"
+
+#: STATS_DBSCAN.R:372
+msgid "Message Number"
+msgstr ""
+"Número da Mensagem"
+
+
