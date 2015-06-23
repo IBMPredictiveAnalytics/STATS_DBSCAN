@@ -1,0 +1,197 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_DBSCAN.R:95
+#: STATS_DBSCAN.R:183
+msgid "Density-Based Clustering"
+msgstr ""
+"密度型集群作業"
+
+#: STATS_DBSCAN.R:97
+msgid "Density-Based Clustering: Warnings"
+msgstr ""
+"密度型集群作業：警告"
+
+#: STATS_DBSCAN.R:100
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s 套件是必要套件，但無法載入。"
+
+#: STATS_DBSCAN.R:111
+msgid "The active dataset must have a name if creating new datasets"
+msgstr ""
+"建立新資料集時，作用中資料集必須具有名稱"
+
+#: STATS_DBSCAN.R:115
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"一或多個指定的輸出資料集名稱已在使用中"
+
+#: STATS_DBSCAN.R:128
+msgid "String variables cannot be used in this procedure"
+msgstr ""
+"字串變數無法在此程序中使用"
+
+#: STATS_DBSCAN.R:186
+msgid "Computations done by R package fpc function dbscan by Christian Hennig"
+msgstr ""
+"計算由 Christian Hennig 透過 R 套件 fpc 函數 dbscan 完成"
+
+#: STATS_DBSCAN.R:188
+msgid "Variables"
+msgstr ""
+"變數"
+
+#: STATS_DBSCAN.R:189
+msgid "Method"
+msgstr ""
+"方法"
+
+#: STATS_DBSCAN.R:190
+msgid "Min Reachability Distance"
+msgstr ""
+"最小可聯繫距離"
+
+#: STATS_DBSCAN.R:191
+msgid "Data Scaled"
+msgstr ""
+"調整後的資料"
+
+#: STATS_DBSCAN.R:192
+msgid "Minimum Cluster Size"
+msgstr ""
+"集群大小下限"
+
+#: STATS_DBSCAN.R:193
+msgid "Output Dataset"
+msgstr ""
+"輸出資料集"
+
+#: STATS_DBSCAN.R:194
+msgid "Workspace File"
+msgstr ""
+"工作區檔案"
+
+#: STATS_DBSCAN.R:195
+msgid "Workspace Retained"
+msgstr ""
+"保留的工作區"
+
+#: STATS_DBSCAN.R:196
+msgid "Creation Date"
+msgstr ""
+"建立日期"
+
+#: STATS_DBSCAN.R:197
+msgid "Number of Cases"
+msgstr ""
+"觀察值數目"
+
+#: STATS_DBSCAN.R:198
+msgid "Number of Valid Cases"
+msgstr ""
+"有效觀察值數目"
+
+#: STATS_DBSCAN.R:204
+#: STATS_DBSCAN.R:208
+msgid "Yes"
+msgstr ""
+"是"
+
+#: STATS_DBSCAN.R:204
+#: STATS_DBSCAN.R:208
+msgid "No"
+msgstr ""
+"否"
+
+#: STATS_DBSCAN.R:206
+#: STATS_DBSCAN.R:207
+msgid "--NA--"
+msgstr ""
+"--NA--"
+
+#: STATS_DBSCAN.R:217
+msgid "Settings and Results Summary"
+msgstr ""
+"設定及結果摘要"
+
+#: STATS_DBSCAN.R:218
+#: STATS_DBSCAN.R:218
+msgid "Summary"
+msgstr ""
+"摘要"
+
+#: STATS_DBSCAN.R:225
+msgid "Frequency"
+msgstr ""
+"次數分配表"
+
+#: STATS_DBSCAN.R:238
+msgid "Seed Frequency"
+msgstr ""
+"種子次數分配表"
+
+#: STATS_DBSCAN.R:238
+msgid "Border Frequency"
+msgstr ""
+"邊框次數分配表"
+
+#: STATS_DBSCAN.R:238
+#: STATS_DBSCAN.R:241
+msgid "Total"
+msgstr ""
+"總計"
+
+#: STATS_DBSCAN.R:244
+msgid "Cluster Membership Distribution"
+msgstr ""
+"集群成員資格分佈"
+
+#: STATS_DBSCAN.R:245
+msgid "Cluster Number"
+msgstr ""
+"集群數目"
+
+#: STATS_DBSCAN.R:248
+msgid "Distribution"
+msgstr ""
+"分佈"
+
+#: STATS_DBSCAN.R:253
+msgid "Cluster Plot"
+msgstr ""
+"集群圖"
+
+#: STATS_DBSCAN.R:282
+msgid "Predicted Cluster"
+msgstr ""
+"預測集群"
+
+#: STATS_DBSCAN.R:345
+msgid "End of procedure"
+msgstr ""
+"程序的結尾"
+
+#: STATS_DBSCAN.R:372
+msgid "Message Number"
+msgstr ""
+"訊息號碼"
+
+
