@@ -1,11 +1,11 @@
 # STATS_DBSCAN
 ## Density-based clustering
- This procedure calculates density-based clusters allowing
+ This procedure calculates density-based clusters allowing for noise.  The companion procedure, STATS_DBPRED, can be used to predict values for new cases.
 
 ---
 Requirements
 ----
-- IBM SPSS Statistics 18 or later
+- IBM SPSS Statistics 18 or later and the corresponding IBM SPSS Statistics-Integration Plug-in for R.
 
 ---
 Installation intructions
