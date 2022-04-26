@@ -8,7 +8,7 @@ Description: This procedure calculates density-based clusters allowing
   for noise.  The companion procedure, STATS_DBPRED, can be used to pr
  edict values for new cases.
 Author: JKP, IBM SPSS
-Version: 1.0.4
+Version: 1.0.5
 Product-Version: 18
 Date: 6/25/2013
 Categories: statistics, clustering
